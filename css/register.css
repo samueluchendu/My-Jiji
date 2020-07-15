@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+}
+
+.myBg {
+    background-color: #EF5A68;
+}
+
+.img-bg {
+    height: 850px;
+    width: 100%;
+    /* background-color: lightgray; */
+    background-image: url("../images/men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-form {
+    height: 800px;
+    width: 45%;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -750px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+}
+
+.mid-form {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-control {
+    border-bottom: 2px solid tomato;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+
+.btm {
+    margin-left: 40%;
+    margin-top: 30px;
+}

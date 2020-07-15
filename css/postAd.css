@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+}
+
+.myBg {
+    background-color: #EF5A68;
+}
+
+.img-bg {
+    height: 850px;
+    width: 100%;
+    /* background-color: lightgray; */
+    background-image: url("../images/men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.img-form {
+    height: 950px;
+    width: 50%;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: -750px;
+    /* border: 1px solid grey;
+    border-radius: 30px; */
+    border: none;
+}
+
+.mid-form {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-control {
+    border-bottom: 2px solid #EF5A68;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+
+.btm {
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.naira::placeholder {
+    font-weight: bolder;
+    color: red;
+}
